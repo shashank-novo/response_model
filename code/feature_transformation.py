@@ -149,8 +149,8 @@ class Transform:
             columns=["column", "rows_clipped_lower", "rows_clipped_upper"]
         )
         newDF["column"] = cols
-        newDF["rows_clipped_lower"] = col_L_cnt
-        newDF["rows_clipped_upper"] = col_U_cnt
+        newDF["Lower_Limit"] = col_L_cnt
+        newDF["Upper_Limit"] = col_U_cnt
 
         return (subset_df[clip_cols], newDF)
 
