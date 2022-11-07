@@ -138,8 +138,8 @@ class Transform:
             cnt_Upper = len(subset_df[subset_df[col] >= U])
             cnt_Lower = len(subset_df[subset_df[col] <= L])
 
-            col_U_cnt.append(cnt_Upper)
-            col_L_cnt.append(cnt_Lower)
+            col_U_cnt.append(U)
+            col_L_cnt.append(L)
 
             col_name = f"min_max_transform_{col}"
             subset_df[col_name] = np.clip(subset_df[col], L, U)
