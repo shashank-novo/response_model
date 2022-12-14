@@ -1,0 +1,161 @@
+,cols,corr_thresh,vif_thresh,forward_move,num_features,Train_AUC,Test_AUC
+0,"['credit_utilisation_180' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,True,8,0.67,0.66
+9,"['credit_utilisation_180' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,False,8,0.67,0.66
+8,"['credit_utilisation_180' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,True,8,0.67,0.66
+1,"['credit_utilisation_180' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,False,8,0.67,0.66
+3,"['credit_utilisation_180' 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_6m' 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,False,10,0.65,0.63
+2,"['credit_utilisation_180' 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_6m' 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,True,10,0.65,0.63
+10,"['credit_utilisation_180' 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_6m' 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,True,10,0.65,0.63
+11,"['credit_utilisation_180' 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_6m' 'median_amount_ach_d_1m' 'card_size_1m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,False,10,0.65,0.63
+4,"['ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,True,12,0.65,0.61
+5,"['ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,False,12,0.65,0.61
+6,"['virtual_card_count' 'business_age_months' 'ratio_ach_debit_amt_90_180'
+ 'ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,True,15,0.66,0.61
+7,"['virtual_card_count' 'business_age_months' 'ratio_ach_debit_amt_90_180'
+ 'ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,5,False,15,0.66,0.61
+12,"['ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,True,12,0.65,0.61
+13,"['ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,False,12,0.65,0.61
+14,"['virtual_card_count' 'business_age_months' 'ratio_ach_debit_amt_90_180'
+ 'ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,True,15,0.66,0.61
+15,"['virtual_card_count' 'business_age_months' 'ratio_ach_debit_amt_90_180'
+ 'ratio_mrdc_freq_90_180' 'credit_utilisation_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'distinct_ach_d_txns_6m'
+ 'median_amount_ach_d_1m' 'card_size_1m' 'ratio_card_amt_total_debit_3m'
+ 'ratio_total_freq_debit_credit_1m' 'credit_utilisation_3m'
+ 'avg_running_balance_6m' 'insurance_debit_size_6m']",0.3,7,False,15,0.66,0.61
+23,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'ach_c_size_3m'
+ 'median_amount_ach_d_1m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'ratio_total_freq_debit_credit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m']",0.4,5,False,15,0.68,0.57
+31,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m' 'ach_c_size_3m'
+ 'median_amount_ach_d_1m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'ratio_total_freq_debit_credit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m']",0.4,7,False,15,0.68,0.57
+22,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_debit_credit_frequency' 'pd_size_6m' 'ach_c_size_3m'
+ 'median_amount_ach_d_1m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m' 'insurance_debit_size_6m']",0.4,5,True,15,0.65,0.56
+30,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_debit_credit_frequency' 'pd_size_6m' 'ach_c_size_3m'
+ 'median_amount_ach_d_1m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m' 'insurance_debit_size_6m']",0.4,7,True,15,0.65,0.56
+20,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'median_amount_ach_d_1m'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m' 'insurance_debit_size_6m']",0.4,5,True,12,0.65,0.54
+17,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,5,False,8,0.66,0.54
+25,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,7,False,8,0.66,0.54
+28,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'median_amount_ach_d_1m'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'distinct_insurance_debit_txns_6m' 'insurance_debit_size_6m']",0.4,7,True,12,0.65,0.54
+18,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'insurance_debit_size_6m']",0.4,5,True,10,0.63,0.53
+19,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,5,False,10,0.66,0.53
+21,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,5,False,12,0.66,0.53
+24,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,7,True,8,0.63,0.53
+26,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'ratio_ach_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m'
+ 'insurance_debit_size_6m']",0.4,7,True,10,0.63,0.53
+27,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,7,False,10,0.66,0.53
+29,"['ratio_ach_debit_amt_90_180' 'ratio_mrdc_amt_90_180'
+ 'ratio_card_withdrawal_amt_90_180' 'pd_size_6m'
+ 'distinct_ach_d_txns_100_6m' 'stddev_amount_card_1m'
+ 'ratio_card_amt_total_debit_6m' 'ratio_ach_freq_debit_credit_6m'
+ 'ratio_total_freq_debit_credit_6m' 'credit_utilisation_1m'
+ 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,7,False,12,0.66,0.53
+16,"['ratio_mrdc_amt_90_180' 'ach_c_size_3m' 'distinct_ach_d_txns_100_6m'
+ 'stddev_amount_card_1m' 'ratio_card_amt_total_debit_6m'
+ 'credit_utilisation_1m' 'credit_utilisation_6m' 'avg_running_balance_6m']",0.4,5,True,8,0.63,0.53
